@@ -1,0 +1,29 @@
+{
+	"name": "zauberfisch/silverstripe-urlsegment-extension",
+	"description": "SilverStripe module to add an URLSegment to DataObjects. Includes FormField",
+	"type": "silverstripe-vendormodule",
+	"keywords": [
+		"silverstripe",
+		"urlsegment",
+		"slug"
+	],
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Zauberfisch",
+			"email": "code@zauberfisch.at"
+		}
+	],
+	"require": {
+		"php": "^7.4 || ^8.0",
+		"ext-json": "*",
+		"silverstripe/framework": "^4.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"zauberfisch\\URLSegmentExtension\\": "src/"
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
